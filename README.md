@@ -1,36 +1,29 @@
-# Minimal Academic Homepage
+# Junhui Qin — Classic Academic Homepage
 
-A lightweight academic homepage built with plain HTML and CSS.
+This version is intentionally styled like a traditional mathematics academic homepage:
+plain white background, compact text, blue links, simple lists, and horizontal rules.
 
-## Customize
+## Upload to GitHub Pages
 
-Edit `index.html` and replace:
+Replace the existing files in `junhui-qin.github.io` with:
 
-- Your name
-- Email
-- University / position
-- Research interests
-- Education and advisor
-- Papers and preprints
-- Notes
-- Talks
-- GitHub / Google Scholar / ORCID / blog links
+- `index.html`
+- `style.css`
 
-## Local Preview
+Then commit the changes. GitHub Pages should update automatically.
 
-Open `index.html` directly in your browser, or run:
+## Edit your information
 
-```bash
-python3 -m http.server 8000
-```
+Open `index.html` and replace:
 
-Then visit `http://localhost:8000`.
+- affiliation
+- email
+- research interests
+- education / advisor
+- CV link
+- papers
+- notes
+- talks
+- Google Scholar / GitHub / ORCID links
 
-## Deploy to GitHub Pages
-
-1. Create a repository such as `yourname.github.io`
-2. Upload `index.html` and `style.css`
-3. Enable GitHub Pages in repository settings
-4. Your site will be published automatically
-
-No JavaScript, build tools, or external dependencies are required.
+There is also a commented-out line for a Chinese name and a Chinese notes section.

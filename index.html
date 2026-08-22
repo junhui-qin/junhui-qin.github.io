@@ -1,99 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Personal academic homepage" />
-  <title>Your Name</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Junhui Qin's academic homepage">
+  <title>Junhui Qin</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main class="page">
-    <header class="hero">
-      <h1>Your Name</h1>
-      <p class="contact">
-        Email:
-        <a href="mailto:yourname@example.com">yourname [at] example [dot] com</a>
-      </p>
-    </header>
+<div class="page">
 
-    <section class="intro" aria-label="About">
-      <p>
-        I am currently a Ph.D. student / postdoctoral researcher / researcher at
-        <a href="#">Your University or Institute</a>. My research interests include
-        <strong>Research Area A</strong>, <strong>Research Area B</strong>, and
-        <strong>Research Area C</strong>.
-      </p>
-      <p>
-        I received my degree from <a href="#">University Name</a> in 20XX,
-        where I was advised by <a href="#">Advisor Name</a>. Before that,
-        I studied at <a href="#">Previous University</a>.
-      </p>
-    </section>
+  <header class="header">
+    <h1>Junhui Qin</h1>
 
-    <section>
-      <h2>Papers and Preprints</h2>
-      <ol class="pub-list">
-        <li>
-          <span class="paper-title">Title of Your First Paper</span>.
-          <a href="#">arXiv</a>
-          <span class="meta">with Coauthor A, 2026.</span>
-        </li>
-        <li>
-          <span class="paper-title">Title of Your Second Paper</span>.
-          <a href="#">PDF</a>
-          <span class="meta">Journal / Conference, 2025.</span>
-        </li>
-        <li>
-          <span class="paper-title">Title of Your Third Paper</span>.
-          <a href="#">DOI</a>
-          <span class="meta">with Coauthor B and Coauthor C, 2024.</span>
-        </li>
-      </ol>
-    </section>
+    <!-- Optional Chinese name:
+    <h2 class="chinese-name">秦俊辉</h2>
+    -->
 
-    <section>
-      <h2>Notes</h2>
-      <ol>
-        <li><a href="#">A Short Note on Your Favorite Topic</a>.</li>
-        <li><a href="#">Some Useful Computations and Examples</a>.</li>
-        <li><a href="#">Reading Notes on a Research Topic</a>.</li>
-      </ol>
-    </section>
+    <address>
+      Your Department / Institute<br>
+      Your University<br>
+      City, Country
+    </address>
 
-    <section>
-      <h2>Talks</h2>
-      <ol>
-        <li>
-          <span class="paper-title">Title of Your Talk</span>,
-          Seminar / Workshop Name,
-          <span class="meta">May 18, 2026.</span>
-          <a href="#">slides</a>
-        </li>
-        <li>
-          <span class="paper-title">Another Talk Title</span>,
-          University / Conference Name,
-          <span class="meta">November 2, 2025.</span>
-          <a href="#">video</a>
-        </li>
-      </ol>
-    </section>
+    <p class="contact">
+      Email: <a href="mailto:your.email@example.com">your.email [at] example [dot] com</a>
+    </p>
+  </header>
 
-    <section>
-      <h2>Others</h2>
-      <p>
-        Outside research, I enjoy reading, music, hiking, and photography.
-        You can also find me on
-        <a href="#">GitHub</a>,
-        <a href="#">Google Scholar</a>,
-        <a href="#">ORCID</a>, or
-        <a href="#">my blog</a>.
-      </p>
-    </section>
+  <hr>
 
-    <footer>
-      <p>Last updated: August 2026.</p>
-    </footer>
-  </main>
+  <section>
+    <p>
+      I am a Ph.D. student / postdoctoral researcher / researcher at
+      <a href="#">Your University or Institute</a>.
+      My research interests are in <strong>your research area</strong>,
+      especially <strong>topic A</strong>, <strong>topic B</strong>, and
+      <strong>topic C</strong>.
+    </p>
+
+    <p>
+      I received my degree from <a href="#">University Name</a>,
+      where I was advised by <a href="#">Advisor Name</a>.
+      Before that, I studied at <a href="#">Previous University</a>.
+      Here is my <a href="#">CV</a>.
+    </p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Papers and Preprints</h2>
+
+    <ol reversed class="publications">
+      <li>
+        <em>Title of Your Most Recent Paper</em>
+        (with Coauthor A and Coauthor B).
+        <a href="#">arXiv</a>.
+        <span class="note">Preprint, 2026.</span>
+      </li>
+
+      <li>
+        <a href="#"><em>Title of Your Second Paper</em></a>.
+        <span class="note">Journal / Conference, 2025.</span>
+        <a href="#">arXiv</a>.
+      </li>
+
+      <li>
+        <em>Title of Your Third Paper</em>
+        (with Coauthor C).
+        <a href="#">PDF</a>.
+        <span class="note">2024.</span>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+
+    <h3>In English</h3>
+    <ol reversed>
+      <li>
+        <a href="#">A short note on a mathematical topic</a>.
+      </li>
+      <li>
+        <a href="#">Some computations and examples</a>.
+      </li>
+    </ol>
+
+    <!-- Keep this section only if you want Chinese notes.
+    <h3>中文</h3>
+    <ol reversed>
+      <li><a href="#">一份数学笔记</a>。</li>
+    </ol>
+    -->
+  </section>
+
+  <section>
+    <h2>Talks</h2>
+
+    <ol reversed>
+      <li>
+        <em>Title of Your Talk</em>,
+        Seminar / Workshop Name,
+        2026-05-18.
+        <a href="#">slides</a>.
+      </li>
+
+      <li>
+        <em>Another Talk Title</em>,
+        University / Conference Name,
+        2025-11-02.
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Others</h2>
+
+    <p>
+      Outside mathematics, I enjoy reading, music, hiking, and photography.
+    </p>
+
+    <p>
+      <a href="#">Google Scholar</a>
+      &nbsp;·&nbsp;
+      <a href="#">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="#">ORCID</a>
+    </p>
+  </section>
+
+  <hr>
+
+  <footer>
+    Last updated: August 2026.
+  </footer>
+
+</div>
 </body>
 </html>
